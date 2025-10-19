@@ -1,0 +1,125 @@
+    .img{
+    width : 100px ;
+}
+a{
+    width : 15px ;
+    font-style :normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: red;
+    text-decoration: none;
+    padding : 50px ;
+    transition: 0.4s ease-in-out ;
+}
+a:hover{
+    color: orange;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.main{
+ width: 100%;
+ background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(it2.gif);
+ background-position: center;
+ background-size:cover;
+ height: 100vh;
+}
+.search
+{
+    width: 400px ;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid red ;
+    margin-top: 13px;
+    color: white;
+    
+    font-size: 16px;
+    float: left;
+    padding: 10px ;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    
+}
+.btn{
+    width : 100px ;
+    height: 40px;
+    background: red;
+    border: 2px black;
+    margin-top: 13px;
+    color: black ;
+    font-size : 15px ;
+    float: left;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto ;
+    margin: auto ;
+    color : white ;
+    position : relative ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+   color: red;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: oblique;
+}
+.content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100px;
+}
+.content .cn{
+   width : 160 px ;
+   height : 40px ;
+   background : red;
+   border : black ;
+   margin-bottom: 10px;
+   margin-left: 20px ;
+   font-size: 18px;
+   border-radius: 20px;
+   cursor : pointer;
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: 0.4s ease-in-out;
+}
+.content .cn :hover{
+    color: orange;
+}
+.footer .social {
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+.footer .social a{
+    font-size: 30px;
+
+    
+
+}
+.footer .social a :hover{
+    opacity: 0.9;
+}
+.par{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Down{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    text-align: center;
+}
