@@ -31,9 +31,9 @@ body{
     padding-left: 20px;
 }
 .btn:hover{
-   background-color: gray ;
-
+    background-color: grey;
 }
+
 .img{
     width: 100px ;
 }
@@ -47,12 +47,23 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
 }
-a{
+.top{
     text-decoration: none;
     color: red;
     font-weight: 100;
     transition: 0.3s ease-in-out;
 }
-a:hover{
+.top:hover{
     color: orange;
+}
+.con{
+    font-size: larger ;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+.con:hover{
+    color: red;
 }
